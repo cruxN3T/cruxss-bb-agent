@@ -31,3 +31,4 @@ desktop.ini
 *.code-workspace
 scout-test.sh
 .obsidian/
+session/
