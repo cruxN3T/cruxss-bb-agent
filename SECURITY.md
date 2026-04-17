@@ -12,18 +12,17 @@ Do not use against systems you do not have written permission to test.
 ## Reporting Issues With This Tool
 
 1. Do not open a public GitHub issue for security vulnerabilities
-2. Email: contact@redacted
+2. Contact via GitHub: https://github.com/cruxN3T
 3. Allow 90 days for response before public disclosure
 
 ## API Key Safety
 
-API keys are stored by Claude Code in ~/.claude/ and credentials in
-~/.config/cruxss/ — never in this repo.
-Pre-commit hooks block accidental key commits.
+API keys and credentials are stored locally on disk only — never in this
+repository. Pre-commit hooks block accidental credential commits.
 Never paste credentials into any file in this repository.
 
 ## Session Data
 
-Real findings, PoCs, target names, and engagement data never belong
-in this public repository. Use the private session repo pattern
-described in SETUP.md.
+Real findings, PoCs, target names, and engagement data never belong in
+this public repository. Use the private session pattern described in
+SETUP.md.
