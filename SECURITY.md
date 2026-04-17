@@ -17,8 +17,8 @@ Do not use against systems you do not have written permission to test.
 
 ## API Key Safety
 
-API keys and credentials are stored locally on disk only — never in this
-repository. Pre-commit hooks block accidental credential commits.
+API keys and credentials are stored locally on disk only — never in
+this repository. Pre-commit hooks block accidental credential commits.
 Never paste credentials into any file in this repository.
 
 ## Session Data
