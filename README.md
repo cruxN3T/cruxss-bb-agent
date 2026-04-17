@@ -204,8 +204,7 @@ No program names, no credentials, no findings, no target data.
 **Private repo:** all engagement data — session notes, leads, validated bugs, drafted reports. Stored separately, never public.
 leads, validated bugs, drafted reports. Never public.
 
-**Local only:** HackerOne API credentials (`~/.config/cruxss/`),
-Claude Code API key (`~/.claude/`). Never in any repo.
+**Credentials:** API keys and tokens stored locally on disk only. Never in any repo.
 
 Pre-commit secret scanning blocks accidental credential commits.
 GitHub push protection adds a second layer.
