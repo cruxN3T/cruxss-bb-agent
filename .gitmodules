@@ -1,0 +1,3 @@
+[submodule "session"]
+	path = session
+	url = https://github.com/cruxN3T/cruxss-sessions.git
