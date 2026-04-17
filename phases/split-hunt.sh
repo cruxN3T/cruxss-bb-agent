@@ -2,7 +2,6 @@
 SRC=/vaults/cruxss/phases/03-hunt.md
 OUT=/vaults/cruxss/phases/03-hunt
 mkdir -p "$OUT"
-
 awk -v out="$OUT" '
 /^## 3[A-Z]\./ {
   if (file) close(file)
@@ -15,6 +14,5 @@ awk -v out="$OUT" '
 }
 file { print > file }
 ' "$SRC"
-
 echo "Split complete:"
 ls -1 "$OUT/"

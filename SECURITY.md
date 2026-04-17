@@ -17,11 +17,13 @@ Do not use against systems you do not have written permission to test.
 
 ## API Key Safety
 
-API keys are stored by Claude Code in ~/.claude/ — never in this repo.
+API keys are stored by Claude Code in ~/.claude/ and credentials in
+~/.config/cruxss/ — never in this repo.
 Pre-commit hooks block accidental key commits.
 Never paste credentials into any file in this repository.
 
 ## Session Data
 
-Real findings, PoCs, and target data never belong in this public repo.
-Use the private session repo pattern described in the README.
+Real findings, PoCs, target names, and engagement data never belong
+in this public repository. Use the private session repo pattern
+described in SETUP.md.

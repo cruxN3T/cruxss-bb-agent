@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+*_credentials*
+*_secret*
+
+# Tool output with potential target data
+*.nessus
+nuclei-output/
+nmap-output/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code workspace
+*.code-workspace
+
+# Obsidian personal state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/

@@ -728,7 +728,7 @@ claude
 
 Type:
 ```
-/bb-agent start testphp.vulnweb.com
+/bb-agent start deliberately-vulnerable-test-target.com
 ```
 
 This is a deliberately vulnerable test target — safe and legal to run against.
