@@ -202,7 +202,6 @@ OWASP, MITRE ATT&CK, and CWE references:
 No program names, no credentials, no findings, no target data.
 
 **Private repo:** all engagement data — session notes, leads, validated bugs, drafted reports. Stored separately, never public.
-leads, validated bugs, drafted reports. Never public.
 
 **Credentials:** API keys and tokens stored locally on disk only. Never in any repo.
 
