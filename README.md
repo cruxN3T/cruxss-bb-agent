@@ -201,7 +201,7 @@ OWASP, MITRE ATT&CK, and CWE references:
 **Public repo:** methodology, tooling, checklists, redacted examples.
 No program names, no credentials, no findings, no target data.
 
-**Private repo (`cruxss-sessions`):** all engagement data — session notes,
+**Private repo:** all engagement data — session notes, leads, validated bugs, drafted reports. Stored separately, never public.
 leads, validated bugs, drafted reports. Never public.
 
 **Local only:** HackerOne API credentials (`~/.config/cruxss/`),
