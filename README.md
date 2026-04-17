@@ -51,7 +51,7 @@ phases/                    ← methodology, loaded one file at a time
 checklists/                ← CRUXSS pentest checklists (OWASP / MITRE mapped)
 templates/                 ← blank engagement template
 examples/                  ← redacted real findings showing output format
-session/                   ← per-engagement folders (private repo, gitignored)
+session/                   ← per-engagement folders (gitignored, stored separately)
 ```
 
 **Token efficiency:** The agent loads ~400 tokens at startup instead of loading
