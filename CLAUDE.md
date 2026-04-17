@@ -127,3 +127,23 @@ Phase 2 → phases/02-learn.md only
 Phase 3 → phases/03-hunt/<relevant-topic>.md on demand
 Phase 4 → phases/04-validate.md only
 Phase 5 → phases/05-report.md only
+
+---
+
+## Session Organization
+
+Every target gets its own folder under session/:
+  session/YYYY-MM-DD-target.com/
+  ├── SESSION.md          ← live notes for this target
+  ├── leads/              ← unconfirmed leads
+  ├── bugs/               ← validated bugs + PoCs
+  ├── chains/             ← bug chain documentation
+  └── reports/            ← drafted reports
+
+Never write to session/SESSION.md directly.
+Always use the per-target folder.
+
+To create a new session folder:
+  TARGET="target.com"
+  FOLDER="/vaults/cruxss/session/$(date +%Y-%m-%d)-${TARGET}"
+  mkdir -p "$FOLDER"/{leads,bugs,chains,reports}
